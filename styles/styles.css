@@ -1,6 +1,7 @@
 /* our app */
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
 }
 
 .app-wrapper {
@@ -8,6 +9,7 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   margin: 40px auto;
+  background-color: #ffffff;
 }
 
 /* sidebar styles */
@@ -111,4 +113,144 @@ body {
 /* main content styles */
 .right-side-container {
   padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 180px;
+}
+
+.about-me-profession {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-me-name {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.about-me-description {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  color: #595959;
+  margin-top: -15px;
+}
+
+.projects-section {
+  margin-top: 40px;
+}
+
+.projects-header {
+  font-weight: 700;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.projects-list {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+.project-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-decoration: underline;
+  color: #595959;
+}
+
+.project-info {
+  font-weight: 400;
+}
+
+.work-experience-section {
+  margin-top: 40px;
+}
+
+.work-experience-header {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.company-name {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.company-info {
+  color: #6096ff;
+  margin-left: 10px;
+}
+
+.company-time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.company-elements-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  font-style: normal;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+
+.company-container {
+  margin-top: -10px;
+}
+
+.education-container {
+  margin-top: 40px;
+}
+
+.education-header {
+  font-weight: 700;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.education-type {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6096ff;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -5px;
+}
+
+.education-name {
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -15px;
+}
+
+.education-time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -15px;
 }
